@@ -1,5 +1,5 @@
 {
-  "name": "react-wrapper-for-wired-elements",
+  "name": "wired-react",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -13,16 +13,30 @@
   "devDependencies": {
     "typescript": "3.3.3"
   },
+	"engines": {
+    "node": "16.20.2"
+  }
+	{
+  "engineStrict": true
+}
   "scripts": {
     "start": "react-scripts start",
+		    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+	 "resolutions": {
+    "caniuse-lite": "1.0.30001632"
+  },
+	 "overrides": {
+    "caniuse-lite": "1.0.30001632"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
